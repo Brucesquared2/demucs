@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Demucs Separate",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "demucs.separate",
+            "console": "integratedTerminal",
+            "args": ["--help"],
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Demucs Train",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "demucs.train",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
